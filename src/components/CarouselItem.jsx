@@ -1,8 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 import StringLimitter from "../utils/StringLimitter";
 
 const CarouselItem = ({ data }) => {
+  const navigate = useNavigate();
+
   const movieDetailHandler = (id) => {
-    console.log(id);
+    navigate(`/${id}`);
   };
 
   return (

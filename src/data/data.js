@@ -413,4 +413,247 @@ const DUMMY_DATA = [
   },
 ];
 
-export default DUMMY_DATA;
+const DUMMY_DETAIL = {
+  id: 50265,
+  title: "Spy x Family",
+  main_picture: {
+    medium: "https://cdn.myanimelist.net/images/anime/1441/122795.jpg",
+    large: "https://cdn.myanimelist.net/images/anime/1441/122795l.jpg",
+  },
+  alternative_titles: {
+    synonyms: [],
+    en: "",
+    ja: "SPY×FAMILY",
+  },
+  start_date: "2022-04-09",
+  end_date: "2022-06-25",
+  synopsis:
+    'Corrupt politicians, frenzied nationalists, and other warmongering forces constantly jeopardize the thin veneer of peace between neighboring countries Ostania and Westalis. In spite of their plots, renowned spy and master of disguise "Twilight" fulfills dangerous missions one after another in the hope that no child will have to experience the horrors of war.\n\nIn the bustling Ostanian city of Berlint, Twilight dons the alias of "Loid Forger," an esteemed psychiatrist. However, his true intention is to gather intelligence on prominent politician Donovan Desmond, who only appears rarely in public at his sons\' school: the prestigious Eden Academy. Enlisting the help of unmarried city hall clerk Yor Briar to act as his wife and adopting the curious six-year-old orphan Anya as his daughter, Loid enacts his master plan. He will enroll Anya in Eden Academy, where Loid hopes she will excel and give him the opportunity to meet Donovan without arousing suspicion. \n\nUnfortunately for Loid, even a man of his talents has trouble playing the figure of a loving father and husband. And just like Loid is hiding his true identity, Yor—who is an underground assassin known as "Thorn Princess"—and Anya—an esper who can read people\'s minds—have no plans to disclose their own secrets either. Although this picture-perfect family is founded on deception, the Forgers gradually come to understand that the love they share for one another trumps all else.\n\n[Written by MAL Rewrite]',
+  mean: 8.57,
+  rank: 99,
+  popularity: 77,
+  media_type: "tv",
+  status: "finished_airing",
+  genres: [
+    {
+      id: 1,
+      name: "Action",
+    },
+    {
+      id: 46,
+      name: "Award Winning",
+    },
+    {
+      id: 53,
+      name: "Childcare",
+    },
+    {
+      id: 4,
+      name: "Comedy",
+    },
+    {
+      id: 27,
+      name: "Shounen",
+    },
+  ],
+  num_episodes: 12,
+  start_season: {
+    year: 2022,
+    season: "spring",
+  },
+  average_episode_duration: 1449,
+  rating: "pg_13",
+  pictures: [
+    {
+      medium: "https://cdn.myanimelist.net/images/anime/1148/119119.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1148/119119l.jpg",
+    },
+    {
+      medium: "https://cdn.myanimelist.net/images/anime/1670/119141.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1670/119141l.jpg",
+    },
+    {
+      medium: "https://cdn.myanimelist.net/images/anime/1823/119156.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1823/119156l.jpg",
+    },
+    {
+      medium: "https://cdn.myanimelist.net/images/anime/1649/119538.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1649/119538l.jpg",
+    },
+    {
+      medium: "https://cdn.myanimelist.net/images/anime/1616/120089.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1616/120089l.jpg",
+    },
+    {
+      medium: "https://cdn.myanimelist.net/images/anime/1111/121262.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1111/121262l.jpg",
+    },
+    {
+      medium: "https://cdn.myanimelist.net/images/anime/1803/122036.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1803/122036l.jpg",
+    },
+    {
+      medium: "https://cdn.myanimelist.net/images/anime/1901/122037.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1901/122037l.jpg",
+    },
+    {
+      medium: "https://cdn.myanimelist.net/images/anime/1702/122038.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1702/122038l.jpg",
+    },
+    {
+      medium: "https://cdn.myanimelist.net/images/anime/1441/122795.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1441/122795l.jpg",
+    },
+  ],
+  related_anime: [
+    {
+      node: {
+        id: 50602,
+        title: "Spy x Family Part 2",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/1111/127508.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/1111/127508l.jpg",
+        },
+      },
+      relation_type: "sequel",
+      relation_type_formatted: "Sequel",
+    },
+    {
+      node: {
+        id: 53270,
+        title: "Good Day",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/1969/128916.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/1969/128916l.jpg",
+        },
+      },
+      relation_type: "character",
+      relation_type_formatted: "Character",
+    },
+  ],
+  related_manga: [],
+  recommendations: [
+    {
+      node: {
+        id: 37999,
+        title: "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/1295/106551.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/1295/106551l.jpg",
+        },
+      },
+      num_recommendations: 13,
+    },
+    {
+      node: {
+        id: 36296,
+        title: "Hinamatsuri (TV)",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/1580/93526.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/1580/93526l.jpg",
+        },
+      },
+      num_recommendations: 13,
+    },
+    {
+      node: {
+        id: 49776,
+        title: "Kumichou Musume to Sewagakari",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/1454/122063.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/1454/122063l.jpg",
+        },
+      },
+      num_recommendations: 9,
+    },
+    {
+      node: {
+        id: 35240,
+        title: "Princess Principal",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/7/86768.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/7/86768l.jpg",
+        },
+      },
+      num_recommendations: 8,
+    },
+    {
+      node: {
+        id: 33206,
+        title: "Kobayashi-san Chi no Maid Dragon",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/5/85434.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/5/85434l.jpg",
+        },
+      },
+      num_recommendations: 5,
+    },
+    {
+      node: {
+        id: 71,
+        title: "Full Metal Panic!",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/2/75259.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/2/75259l.jpg",
+        },
+      },
+      num_recommendations: 5,
+    },
+    {
+      node: {
+        id: 40052,
+        title: "Great Pretender",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/1418/107954.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/1418/107954l.jpg",
+        },
+      },
+      num_recommendations: 4,
+    },
+    {
+      node: {
+        id: 41120,
+        title: "Fugou Keiji: Balance:Unlimited",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/1066/106556.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/1066/106556l.jpg",
+        },
+      },
+      num_recommendations: 4,
+    },
+    {
+      node: {
+        id: 10162,
+        title: "Usagi Drop",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/2/29665.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/2/29665l.jpg",
+        },
+      },
+      num_recommendations: 4,
+    },
+    {
+      node: {
+        id: 35222,
+        title: "Gakuen Babysitters",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/8/89978.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/8/89978l.jpg",
+        },
+      },
+      num_recommendations: 3,
+    },
+  ],
+  studios: [
+    {
+      id: 858,
+      name: "Wit Studio",
+    },
+    {
+      id: 1835,
+      name: "CloverWorks",
+    },
+  ],
+};
+
+export { DUMMY_DATA, DUMMY_DETAIL };
