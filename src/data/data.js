@@ -150,6 +150,267 @@ const DUMMY_DATA = [
     ],
     rating: "pg_13",
   },
+  {
+    id: 966,
+    title: "Crayon Shin-chan",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/10/59897.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/10/59897l.jpg",
+    },
+    alternative_titles: {
+      synonyms: [],
+      en: "Shin Chan",
+      ja: "クレヨンしんちゃん",
+    },
+    synopsis:
+      'There is no such thing as an uneventful day in the life of kindergartener Shinnosuke "Shin-chan" Nohara. The five-year-old is a cut above the most troublesome, perverted, and shameless kid one can imagine. Shin-chan is almost always engaged in questionable activities such as forgetting about a friend during hide and seek, sumo wrestling for love, performing various gags including the notorious "elephant" in public, and flirting with college girls. The exemplary troublemaker has done it all and has no plans to stop anytime soon.\n\nCrayon Shin-chan follows the daily shenanigans of Shin-chan with his group of friends, parading around as the self-proclaimed "Kasukabe Defense Force." The adults witnessing these shenanigans unfold can\'t help but adore Shin-chan, as he keeps them entertained while unintentionally solving their daily troubles through his mindless antics—leaving himself as the only problem they do not know what to do with.\n\n[Written by MAL Rewrite]',
+    mean: 7.78,
+    genres: [
+      {
+        id: 4,
+        name: "Comedy",
+      },
+      {
+        id: 9,
+        name: "Ecchi",
+      },
+      {
+        id: 23,
+        name: "School",
+      },
+      {
+        id: 42,
+        name: "Seinen",
+      },
+    ],
+    rating: "g",
+  },
+  {
+    id: 47794,
+    title: "MILGЯAM",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1497/112023.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1497/112023l.jpg",
+    },
+    alternative_titles: {
+      synonyms: ["MILGRAM"],
+      en: "MILGRAM",
+      ja: "ミルグラム",
+    },
+    synopsis:
+      "Es awakens in the facility Milgram to find a strange talking animal named Jackalope staring them down. Soon, they learn their purpose: as the prison guard, Es must delve into the psyches of 10 inmates, each of them imprisoned for causing the loss of life in some form or another. Their fates rest in Es' hands. Do the means justify an end, and how much does intent matter if the result is death? No matter how the lines between good and evil, right and wrong, and just and cruel are blurred, there are only two options Es can choose between: innocent or guilty.\n\n[Written by MAL Rewrite]\n",
+    mean: 8.01,
+    genres: [
+      {
+        id: 19,
+        name: "Music",
+      },
+      {
+        id: 40,
+        name: "Psychological",
+      },
+      {
+        id: 41,
+        name: "Suspense",
+      },
+    ],
+    rating: "pg_13",
+  },
+  {
+    id: 21,
+    title: "One Piece",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1244/138851.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1244/138851l.jpg",
+    },
+    alternative_titles: {
+      synonyms: ["OP"],
+      en: "One Piece",
+      ja: "ONE PIECE",
+    },
+    synopsis:
+      "Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a naive-looking teenager, he is not to be underestimated. Unmatched in battle, Luffy is a pirate himself who resolutely pursues the coveted One Piece treasure and the King of the Pirates title that comes with it.\n\nThe late King of the Pirates, Gol D. Roger, stirred up the world before his death by disclosing the whereabouts of his hoard of riches and daring everyone to obtain it. Ever since then, countless powerful pirates have sailed dangerous seas for the prized One Piece only to never return. Although Luffy lacks a crew and a proper ship, he is endowed with a superhuman ability and an unbreakable spirit that make him not only a formidable adversary but also an inspiration to many.\n\nAs he faces numerous challenges with a big smile on his face, Luffy gathers one-of-a-kind companions to join him in his ambitious endeavor, together embracing perils and wonders on their once-in-a-lifetime adventure.\n\n[Written by MAL Rewrite]",
+    mean: 8.71,
+    genres: [
+      {
+        id: 1,
+        name: "Action",
+      },
+      {
+        id: 2,
+        name: "Adventure",
+      },
+      {
+        id: 10,
+        name: "Fantasy",
+      },
+      {
+        id: 27,
+        name: "Shounen",
+      },
+      {
+        id: 54029,
+        title: "Wu Liuqi: Anying Suming",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/1088/132178.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/1088/132178l.jpg",
+        },
+        alternative_titles: {
+          synonyms: [
+            "Cike Wuliuqi 4th Season",
+            "Ci Ke Wu Liu Qi 4th Season",
+            "Assassin Seven 4th Season",
+            "Killer Seven 4th Season",
+          ],
+          en: "Scissor Seven: Shadow Fate",
+          ja: "伍六七之暗影宿命",
+        },
+        synopsis:
+          "The protagonist Wu Liuqi originally lived a carefree life on Xiaoji Island, but his identity became a mystery due to amnesia. As outsiders landed on the island and recognized Wu Liuqi, various conspiracies began to cover Xiaoji Island. So Wu Liuqi decided to return to Xuanwu Kingdom to meet his destiny in order to protect his partners and their homeland. \n\n(Source: Bilibili, Google translated)",
+        mean: 7.98,
+        genres: [
+          {
+            id: 1,
+            name: "Action",
+          },
+          {
+            id: 2,
+            name: "Adventure",
+          },
+          {
+            id: 4,
+            name: "Comedy",
+          },
+          {
+            id: 8,
+            name: "Drama",
+          },
+          {
+            id: 17,
+            name: "Martial Arts",
+          },
+          {
+            id: 7,
+            name: "Mystery",
+          },
+          {
+            id: 31,
+            name: "Super Power",
+          },
+          {
+            id: 50183,
+            title: "Blue Giant",
+            main_picture: {
+              medium:
+                "https://cdn.myanimelist.net/images/anime/1958/132159.jpg",
+              large:
+                "https://cdn.myanimelist.net/images/anime/1958/132159l.jpg",
+            },
+            alternative_titles: {
+              synonyms: [],
+              en: "",
+              ja: "BLUE GIANT",
+            },
+            synopsis:
+              '"I will definitely become the world\'s best Jazz player!"\n\nBlue Giant follows Dai Miyamoto, who is a member of the basketball club. While attending junior high school one day, a friend takes him to a live jazz performance, which inspires him deeply. Thereafter, he begins practicing the tenor saxophone by himself, without the ability to read sheet music.\n\nRain or shine, day or night, Dai continues to practice. During his first performance, he is criticized by the audience, however, Dai passionately blows away at his saxophone. A tale of reaching his goal recklessly and sincerely begins.\n\n(Source: MAL News)',
+            mean: 8.28,
+            genres: [
+              {
+                id: 19,
+                name: "Music",
+              },
+              {
+                id: 42,
+                name: "Seinen",
+              },
+            ],
+            rating: "pg_13",
+          },
+        ],
+        rating: "r",
+      },
+    ],
+    rating: "pg_13",
+  },
+  {
+    id: 54029,
+    title: "Wu Liuqi: Anying Suming",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1088/132178.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1088/132178l.jpg",
+    },
+    alternative_titles: {
+      synonyms: [
+        "Cike Wuliuqi 4th Season",
+        "Ci Ke Wu Liu Qi 4th Season",
+        "Assassin Seven 4th Season",
+        "Killer Seven 4th Season",
+      ],
+      en: "Scissor Seven: Shadow Fate",
+      ja: "伍六七之暗影宿命",
+    },
+    synopsis:
+      "The protagonist Wu Liuqi originally lived a carefree life on Xiaoji Island, but his identity became a mystery due to amnesia. As outsiders landed on the island and recognized Wu Liuqi, various conspiracies began to cover Xiaoji Island. So Wu Liuqi decided to return to Xuanwu Kingdom to meet his destiny in order to protect his partners and their homeland. \n\n(Source: Bilibili, Google translated)",
+    mean: 7.98,
+    genres: [
+      {
+        id: 1,
+        name: "Action",
+      },
+      {
+        id: 2,
+        name: "Adventure",
+      },
+      {
+        id: 4,
+        name: "Comedy",
+      },
+      {
+        id: 8,
+        name: "Drama",
+      },
+      {
+        id: 17,
+        name: "Martial Arts",
+      },
+      {
+        id: 7,
+        name: "Mystery",
+      },
+      {
+        id: 31,
+        name: "Super Power",
+      },
+    ],
+    rating: "r",
+  },
+  {
+    id: 50183,
+    title: "Blue Giant",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1958/132159.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1958/132159l.jpg",
+    },
+    alternative_titles: {
+      synonyms: [],
+      en: "",
+      ja: "BLUE GIANT",
+    },
+    synopsis:
+      '"I will definitely become the world\'s best Jazz player!"\n\nBlue Giant follows Dai Miyamoto, who is a member of the basketball club. While attending junior high school one day, a friend takes him to a live jazz performance, which inspires him deeply. Thereafter, he begins practicing the tenor saxophone by himself, without the ability to read sheet music.\n\nRain or shine, day or night, Dai continues to practice. During his first performance, he is criticized by the audience, however, Dai passionately blows away at his saxophone. A tale of reaching his goal recklessly and sincerely begins.\n\n(Source: MAL News)',
+    mean: 8.28,
+    genres: [
+      {
+        id: 19,
+        name: "Music",
+      },
+      {
+        id: 42,
+        name: "Seinen",
+      },
+    ],
+    rating: "pg_13",
+  },
 ];
 
 export default DUMMY_DATA;

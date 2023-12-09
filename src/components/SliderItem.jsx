@@ -1,0 +1,21 @@
+const SliderItem = ({ data }) => {
+  const movieDetailHandler = (id) => {
+    console.log(id);
+  };
+
+  return (
+    <div
+      className="mr-5"
+      style={{ minWidth: "13rem" }}
+      onClick={() => movieDetailHandler(data.id)}
+    >
+      <img src={data.main_picture.medium} className="rounded-xl h-3/4" />
+      <div className="text-lg font-medium mt-3">{data.title}</div>
+      <div className="text-sm">
+        {data.alternative_titles.en || data.alternative_titles.ja}
+      </div>
+    </div>
+  );
+};
+
+export default SliderItem;

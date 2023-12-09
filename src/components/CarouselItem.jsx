@@ -1,4 +1,4 @@
-import StringLimitter from "./utils/StringLimitter";
+import StringLimitter from "../utils/StringLimitter";
 
 const CarouselItem = ({ data }) => {
   const movieDetailHandler = (id) => {
@@ -17,7 +17,7 @@ const CarouselItem = ({ data }) => {
         src={data.main_picture.large}
         alt={data.title}
         style={{
-          minWidth: "120rem",
+          minWidth: "108.1rem",
           height: "40rem",
         }}
         className="rounded-bl-3xl rounded-br-3xl object-cover"
@@ -25,9 +25,7 @@ const CarouselItem = ({ data }) => {
       <div className="absolute top-0 w-full text-white ml-20 py-32 ">
         <p className="text-5xl font-bold mb-3 w-3/6">{data.title}</p>
         <p className="text-3xl font-medium">
-          {data.alternative_titles.en ||
-            data.alternative_titles.synonyms ||
-            data.alternative_titles.ja}
+          {data.alternative_titles.en || data.alternative_titles.ja}
         </p>
         <div className="mt-5 mb-6">
           <span className="bg-black rounded-2xl py-2 px-4 mr-2">
