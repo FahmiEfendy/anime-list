@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 
+import Gallery from "./Gallery";
 import { DUMMY_DETAIL as data } from "../data/data";
 import StringLimitter from "../utils/StringLimitter";
 
@@ -17,6 +18,7 @@ const AnimeDetail = () => {
         {/* Poster */}
         <div className="w-4/12">
           <img
+            alt={data.title}
             src={data.main_picture.large}
             className="h-screen object-cover"
           />
@@ -179,6 +181,15 @@ const AnimeDetail = () => {
               </label>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Gallery */}
+      <div className="bg-zinc-950 text-white" style={{ minHeight: "100vh" }}>
+        <div className="w-full p-20">
+          <p className="text-5xl font-bold">GALLERY</p>
+          <hr className="mt-5 mb-8" />
+          <Gallery images={data.pictures} title={data.title} />
         </div>
       </div>
     </React.Fragment>
