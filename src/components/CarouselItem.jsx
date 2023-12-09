@@ -9,6 +9,7 @@ const CarouselItem = ({ data }) => {
     <div
       key={data.id}
       className="cursor-pointer"
+      style={{ minWidth: "100%" }}
       onClick={() => movieDetailHandler(data.id)}
     >
       {/* TODO: Black Gradient (Black -> Transparent) */}
@@ -17,7 +18,7 @@ const CarouselItem = ({ data }) => {
         src={data.main_picture.large}
         alt={data.title}
         style={{
-          minWidth: "108.1rem",
+          width: "100%",
           height: "40rem",
         }}
         className="rounded-bl-3xl rounded-br-3xl object-cover"

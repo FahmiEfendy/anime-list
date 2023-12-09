@@ -6,16 +6,16 @@ const Slider = ({ datas }) => {
   const [current, setCurrent] = useState(0);
 
   const goLeftHandler = () => {
-    setCurrent((prevState) => prevState - 15);
+    setCurrent((prevState) => prevState - 13);
   };
 
   const goRightHandler = () => {
-    setCurrent((prevState) => prevState + 15);
+    setCurrent((prevState) => prevState + 13);
   };
 
   useEffect(() => {
-    if (current > 45) {
-      setCurrent(45);
+    if (current > 30) {
+      setCurrent(30);
     } else if (current < 0) {
       setCurrent(0);
     }
