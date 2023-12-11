@@ -14,7 +14,7 @@ function App() {
         element={
           <React.Fragment>
             <Carousel datas={DUMMY_DATA} />
-            <Slider datas={DUMMY_DATA} />
+            <Slider datas={DUMMY_DATA} header="Top Anime" />
             <div id="footer" className="mt-36"></div>
           </React.Fragment>
         }

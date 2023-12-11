@@ -6,7 +6,7 @@ const Carousel = ({ datas }) => {
   const [current, setCurrent] = useState(0);
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative mb-10">
       <div
         className={`flex transition ease-out duration-500`}
         style={{

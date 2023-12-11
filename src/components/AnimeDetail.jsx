@@ -1,8 +1,13 @@
 import React, { useRef } from "react";
 
+import Slider from "./Slider";
 import Gallery from "./Gallery";
-import { DUMMY_DETAIL as data } from "../data/data";
 import StringLimitter from "../utils/StringLimitter";
+import {
+  DUMMY_DETAIL as data,
+  DUMMY_RECOMMENDATION as recData,
+  DUMMY_SIMILIAR as simData,
+} from "../data/data";
 
 const AnimeDetail = () => {
   const ref = useRef(null);
@@ -191,6 +196,12 @@ const AnimeDetail = () => {
           <hr className="mt-5 mb-8" />
           <Gallery images={data.pictures} title={data.title} />
         </div>
+      </div>
+
+      {/* Related & Similiar */}
+      <div style={{ minHeight: "100vh" }} className="pt-10">
+        <Slider datas={recData} header="Related Anime" />
+        <Slider datas={simData} header="Similiar Like This" />
       </div>
     </React.Fragment>
   );

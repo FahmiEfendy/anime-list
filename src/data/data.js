@@ -656,4 +656,106 @@ const DUMMY_DETAIL = {
   ],
 };
 
-export { DUMMY_DATA, DUMMY_DETAIL };
+const DUMMY_RECOMMENDATION = [
+  {
+    id: 50602,
+    title: "Spy x Family Part 2",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1111/127508.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1111/127508l.jpg",
+    },
+  },
+  {
+    id: 53270,
+    title: "Good Day",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1969/128916.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1969/128916l.jpg",
+    },
+  },
+];
+
+const DUMMY_SIMILIAR = [
+  {
+    id: 37999,
+    title: "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1295/106551.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1295/106551l.jpg",
+    },
+  },
+  {
+    id: 36296,
+    title: "Hinamatsuri (TV)",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1580/93526.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1580/93526l.jpg",
+    },
+  },
+  {
+    id: 49776,
+    title: "Kumichou Musume to Sewagakari",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1454/122063.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1454/122063l.jpg",
+    },
+  },
+  {
+    id: 35240,
+    title: "Princess Principal",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/7/86768.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/7/86768l.jpg",
+    },
+  },
+  {
+    id: 33206,
+    title: "Kobayashi-san Chi no Maid Dragon",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/5/85434.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/5/85434l.jpg",
+    },
+  },
+  {
+    id: 71,
+    title: "Full Metal Panic!",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/2/75259.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/2/75259l.jpg",
+    },
+  },
+  {
+    id: 40052,
+    title: "Great Pretender",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1418/107954.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1418/107954l.jpg",
+    },
+  },
+  {
+    id: 41120,
+    title: "Fugou Keiji: Balance:Unlimited",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1066/106556.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1066/106556l.jpg",
+    },
+  },
+  {
+    id: 10162,
+    title: "Usagi Drop",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/2/29665.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/2/29665l.jpg",
+    },
+  },
+  {
+    id: 35222,
+    title: "Gakuen Babysitters",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/8/89978.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/8/89978l.jpg",
+    },
+  },
+];
+
+export { DUMMY_DATA, DUMMY_DETAIL, DUMMY_RECOMMENDATION, DUMMY_SIMILIAR };
