@@ -190,8 +190,14 @@ const AnimeDetail = () => {
       </div>
 
       {/* Gallery */}
-      <div className="bg-zinc-950 text-white" style={{ minHeight: "100vh" }}>
-        <div className="w-full p-20">
+      <div
+        className="relative bg-gradient-to-t from-transparent to-zinc-950 text-white"
+        style={{ minHeight: "100vh" }}
+      >
+        <div className="absolute h-full w-screen bg-gradient-to-b from-zinc-950 via-transparent to-transparent" />
+        <div className="absolute h-full w-screen bg-gradient-to-b from-zinc-950 via-transparent to-transparent" />
+        <div className="absolute h-full w-screen bg-gradient-to-b from-zinc-950 via-transparent to-transparent" />
+        <div className="w-full p-20 z-10 relative">
           <p className="text-5xl font-bold">GALLERY</p>
           <hr className="mt-5 mb-8" />
           <Gallery images={data.pictures} title={data.title} />

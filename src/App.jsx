@@ -13,8 +13,11 @@ function App() {
         path="/"
         element={
           <React.Fragment>
+            {/* TODO: Top Airing Anime */}
             <Carousel datas={DUMMY_DATA} />
+            {/* TODO: Top Anime All */}
             <Slider datas={DUMMY_DATA} header="Top Anime" />
+            {/* TODO: Top Anime TV | Movie | Upcoming | Popularity | Favorite | OVA | Special  */}
             <div id="footer" className="mt-36"></div>
           </React.Fragment>
         }

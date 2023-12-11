@@ -20,8 +20,7 @@ const SliderItem = ({ data }) => {
       />
       <div className="text-lg font-medium mt-3">{data.title}</div>
       <div className="text-sm">
-        {data.altenative_titles &&
-          (data.alternative_titles.en || data.alternative_titles.ja)}
+        {data.alternative_titles?.en || data.alternative_titles?.ja}
       </div>
     </div>
   );
