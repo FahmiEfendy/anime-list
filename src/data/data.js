@@ -1,236 +1,345 @@
 const DUMMY_DATA = [
   {
-    id: 50528,
-    title: "Golden Kamuy 4th Season",
+    id: 52991,
+    title: "Sousou no Frieren",
     main_picture: {
-      medium: "https://cdn.myanimelist.net/images/anime/1855/128059.jpg",
-      large: "https://cdn.myanimelist.net/images/anime/1855/128059l.jpg",
+      medium: "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg",
     },
+    mean: 9.13,
+    media_type: "tv",
+    start_date: "2023-09-29",
     alternative_titles: {
-      synonyms: [],
-      en: "Golden Kamuy Season 4",
-      ja: "ゴールデンカムイ",
+      synonyms: ["Frieren at the Funeral"],
+      en: "Frieren: Beyond Journey's End",
+      ja: "葬送のフリーレン",
     },
     synopsis:
-      "The race to obtain the lost Ainu gold is nearing its peak, as even more formidable ex-prisoners are set on keeping their tattooed skins intact. Saichi \"The Immortal\" Sugimoto and Asirpa can finally move forward together, but Asirpa's time with Kiroranke and Ogata Hyakunosuke has slightly altered her ambition and strengthened her determination. As their party leaves the Russian territory, they gain a peculiar follower.\n\nMeanwhile, Toshizou Hijikata's crew makes major moves to get invaluable skins, falling into the poisonous trap of a dangerous convict. Although each group possesses a strong advantage over the others, even First Lieutenant Tokushirou Tsurumi—the most powerful and ruthless contender—cannot advance without Asirpa's help. However, his ominous plans for when they will inevitably meet remain a mystery.\n\n[Written by MAL Rewrite]",
-    mean: 8.13,
+      "During their decade-long quest to defeat the Demon King, the members of the hero's party—Himmel himself, the priest Heiter, the dwarf warrior Eisen, and the elven mage Frieren—forge bonds through adventures and battles, creating unforgettable precious memories for most of them.\n\nHowever, the time that Frieren spends with her comrades is equivalent to merely a fraction of her life, which has lasted over a thousand years. When the party disbands after their victory, Frieren casually returns to her \"usual\" routine of collecting spells across the continent. Due to her different sense of time, she seemingly holds no strong feelings toward the experiences she went through.\n\nAs the years pass, Frieren gradually realizes how her days in the hero's party truly impacted her. Witnessing the deaths of two of her former companions, Frieren begins to regret having taken their presence for granted; she vows to better understand humans and create real personal connections. Although the story of that once memorable journey has long ended, a new tale is about to begin.\n\n[Written by MAL Rewrite]",
+    genres: [
+      {
+        id: 2,
+        name: "Adventure",
+      },
+      {
+        id: 8,
+        name: "Drama",
+      },
+      {
+        id: 10,
+        name: "Fantasy",
+      },
+      {
+        id: 27,
+        name: "Shounen",
+      },
+    ],
+    rating: "pg_13",
+  },
+  {
+    id: 5114,
+    title: "Fullmetal Alchemist: Brotherhood",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1208/94745.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1208/94745l.jpg",
+    },
+    mean: 9.09,
+    media_type: "tv",
+    start_date: "2009-04-05",
+    alternative_titles: {
+      synonyms: [
+        "Hagane no Renkinjutsushi: Fullmetal Alchemist",
+        "Fullmetal Alchemist (2009)",
+        "FMA",
+        "FMAB",
+      ],
+      en: "Fullmetal Alchemist: Brotherhood",
+      ja: "鋼の錬金術師 FULLMETAL ALCHEMIST",
+    },
+    synopsis:
+      "After a horrific alchemy experiment goes wrong in the Elric household, brothers Edward and Alphonse are left in a catastrophic new reality. Ignoring the alchemical principle banning human transmutation, the boys attempted to bring their recently deceased mother back to life. Instead, they suffered brutal personal loss: Alphonse's body disintegrated while Edward lost a leg and then sacrificed an arm to keep Alphonse's soul in the physical realm by binding it to a hulking suit of armor.\n\nThe brothers are rescued by their neighbor Pinako Rockbell and her granddaughter Winry. Known as a bio-mechanical engineering prodigy, Winry creates prosthetic limbs for Edward by utilizing \"automail,\" a tough, versatile metal used in robots and combat armor. After years of training, the Elric brothers set off on a quest to restore their bodies by locating the Philosopher's Stone—a powerful gem that allows an alchemist to defy the traditional laws of Equivalent Exchange.\n\nAs Edward becomes an infamous alchemist and gains the nickname \"Fullmetal,\" the boys' journey embroils them in a growing conspiracy that threatens the fate of the world.\n\n[Written by MAL Rewrite]",
     genres: [
       {
         id: 1,
         name: "Action",
-      },
-      {
-        id: 50,
-        name: "Adult Cast",
       },
       {
         id: 2,
         name: "Adventure",
       },
       {
-        id: 13,
-        name: "Historical",
+        id: 8,
+        name: "Drama",
+      },
+      {
+        id: 10,
+        name: "Fantasy",
       },
       {
         id: 38,
         name: "Military",
       },
       {
-        id: 42,
-        name: "Seinen",
+        id: 27,
+        name: "Shounen",
       },
     ],
     rating: "r",
   },
   {
-    id: 50587,
-    title: "Gridman Universe",
+    id: 9253,
+    title: "Steins;Gate",
     main_picture: {
-      medium: "https://cdn.myanimelist.net/images/anime/1897/133657.jpg",
-      large: "https://cdn.myanimelist.net/images/anime/1897/133657l.jpg",
+      medium: "https://cdn.myanimelist.net/images/anime/1935/127974.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1935/127974l.jpg",
     },
-    alternative_titles: {
-      synonyms: ["Gridman×Dynazenon"],
-      en: "",
-      ja: "グリッドマン ユニバース",
-    },
-    synopsis:
-      "A year has passed since the events of SSSS.Gridman. The world is at peace and no one except for Rikka and Utsumi remembers the kaiju, Gridman, or Akane Shinjou. This includes Yuuta, who despite serving as Gridman's host, has no memory of the most important moments of his life. So when a new Kaiju appears, he leaps at the chance to prove to himself that he too can be the hero by merging with Gridman once more.\n\n(Source: ANN)",
-    mean: 8.21,
-    genres: [
-      {
-        id: 1,
-        name: "Action",
-      },
-      {
-        id: 18,
-        name: "Mecha",
-      },
-      {
-        id: 24,
-        name: "Sci-Fi",
-      },
-    ],
-    rating: "pg_13",
-  },
-  {
-    id: 51680,
-    title: "Cool Doji Danshi",
-    main_picture: {
-      medium: "https://cdn.myanimelist.net/images/anime/1123/134677.jpg",
-      large: "https://cdn.myanimelist.net/images/anime/1123/134677l.jpg",
-    },
+    mean: 9.07,
+    media_type: "tv",
+    start_date: "2011-04-06",
     alternative_titles: {
       synonyms: [],
-      en: "Play It Cool, Guys",
-      ja: "クールドジ男子",
+      en: "Steins;Gate",
+      ja: "STEINS;GATE",
     },
     synopsis:
-      "Despite their distinctive personalities, Souma Shiki, Hayate Ichikura, Shun Futami, and Takayuki Mima all have one thing in common: though naturally clumsy, the four disguise their embarrassment from tiny slip-ups by maintaining a composed demeanor. However, it is actually the guys' airheaded natures that makes the girls' hearts throb. No matter what happens in their daily lives, the boys do their best not to lose their cool!\n\n[Written by MAL Rewrite]",
-    mean: 7.87,
+      'Eccentric scientist Rintarou Okabe has a never-ending thirst for scientific exploration. Together with his ditzy but well-meaning friend Mayuri Shiina and his roommate Itaru Hashida, Rintarou founds the Future Gadget Laboratory in the hopes of creating technological innovations that baffle the human psyche. Despite claims of grandeur, the only notable "gadget" the trio have created is a microwave that has the mystifying power to turn bananas into green goo.\n\nHowever, when Rintarou decides to attend neuroscientist Kurisu Makise\'s conference on time travel, he experiences a series of strange events that lead him to believe that there is more to the "Phone Microwave" gadget than meets the eye. Apparently able to send text messages into the past using the microwave, Rintarou dabbles further with the "time machine," attracting the ire and attention of the mysterious organization SERN.\n\nDue to the novel discovery, Rintarou and his friends find themselves in an ever-present danger. As he works to mitigate the damage his invention has caused to the timeline, he is not only fighting a battle to save his loved ones, but also one against his degrading sanity.\n\n[Written by MAL Rewrite]',
     genres: [
       {
-        id: 63,
-        name: "Iyashikei",
-      },
-      {
-        id: 36,
-        name: "Slice of Life",
-      },
-    ],
-    rating: "pg_13",
-  },
-  {
-    id: 52826,
-    title: "Tsurune: Tsunagari no Issha",
-    main_picture: {
-      medium: "https://cdn.myanimelist.net/images/anime/1803/132337.jpg",
-      large: "https://cdn.myanimelist.net/images/anime/1803/132337l.jpg",
-    },
-    alternative_titles: {
-      synonyms: ["Tsurune 2nd Season"],
-      en: "Tsurune - The Linking Shot -",
-      ja: "ツルネ ―つながりの一射―",
-    },
-    synopsis:
-      "Despite the prefectural tournament's breathtaking conclusion, the Kazemai High School Kyudo Club has no time to celebrate. With the national competition right around the corner, the club is determined to prove that their initial victory was not a mere fluke.\n\nWith his passion for the sport reignited, Minato Narumiya earnestly prepares for the upcoming competition with his teammates, who are equally motivated to win. As the much-anticipated tournament begins, the members of Kazemai's kyudo team fight to stay on target with their ambitious goal. But when old acquaintances reappear as difficult opponents, the boys find that winning the nationals will require more dedication and effort than ever before.\n\n[Written by MAL Rewrite]",
-    mean: 8.1,
-    genres: [
-      {
-        id: 23,
-        name: "School",
-      },
-      {
-        id: 30,
-        name: "Sports",
-      },
-    ],
-    rating: "pg_13",
-  },
-  {
-    id: 44042,
-    title: "Holo no Graffiti",
-    main_picture: {
-      medium: "https://cdn.myanimelist.net/images/anime/1259/110227.jpg",
-      large: "https://cdn.myanimelist.net/images/anime/1259/110227l.jpg",
-    },
-    alternative_titles: {
-      synonyms: ["Horogura", "HoloGra"],
-      en: "Holo Graffiti",
-      ja: "ホロのぐらふぃてぃ",
-    },
-    synopsis:
-      'From unraveling the secrets of opening and closing doors to defusing surprise packages more commonly known as bombs, there is never a dull day at the Hololive Production office! Holo no Graffiti follows an eccentric cast of Virtual YouTubers, also known as "VTubers," going about their absurd yet hilarious daily lives, detailing all their cute moments and mishaps.\n\n[Written by MAL Rewrite]',
-    mean: 8.21,
-    genres: [
-      {
-        id: 4,
-        name: "Comedy",
-      },
-    ],
-    rating: "pg_13",
-  },
-  {
-    id: 966,
-    title: "Crayon Shin-chan",
-    main_picture: {
-      medium: "https://cdn.myanimelist.net/images/anime/10/59897.jpg",
-      large: "https://cdn.myanimelist.net/images/anime/10/59897l.jpg",
-    },
-    alternative_titles: {
-      synonyms: [],
-      en: "Shin Chan",
-      ja: "クレヨンしんちゃん",
-    },
-    synopsis:
-      'There is no such thing as an uneventful day in the life of kindergartener Shinnosuke "Shin-chan" Nohara. The five-year-old is a cut above the most troublesome, perverted, and shameless kid one can imagine. Shin-chan is almost always engaged in questionable activities such as forgetting about a friend during hide and seek, sumo wrestling for love, performing various gags including the notorious "elephant" in public, and flirting with college girls. The exemplary troublemaker has done it all and has no plans to stop anytime soon.\n\nCrayon Shin-chan follows the daily shenanigans of Shin-chan with his group of friends, parading around as the self-proclaimed "Kasukabe Defense Force." The adults witnessing these shenanigans unfold can\'t help but adore Shin-chan, as he keeps them entertained while unintentionally solving their daily troubles through his mindless antics—leaving himself as the only problem they do not know what to do with.\n\n[Written by MAL Rewrite]',
-    mean: 7.78,
-    genres: [
-      {
-        id: 4,
-        name: "Comedy",
-      },
-      {
-        id: 9,
-        name: "Ecchi",
-      },
-      {
-        id: 23,
-        name: "School",
-      },
-      {
-        id: 42,
-        name: "Seinen",
-      },
-    ],
-    rating: "g",
-  },
-  {
-    id: 47794,
-    title: "MILGЯAM",
-    main_picture: {
-      medium: "https://cdn.myanimelist.net/images/anime/1497/112023.jpg",
-      large: "https://cdn.myanimelist.net/images/anime/1497/112023l.jpg",
-    },
-    alternative_titles: {
-      synonyms: ["MILGRAM"],
-      en: "MILGRAM",
-      ja: "ミルグラム",
-    },
-    synopsis:
-      "Es awakens in the facility Milgram to find a strange talking animal named Jackalope staring them down. Soon, they learn their purpose: as the prison guard, Es must delve into the psyches of 10 inmates, each of them imprisoned for causing the loss of life in some form or another. Their fates rest in Es' hands. Do the means justify an end, and how much does intent matter if the result is death? No matter how the lines between good and evil, right and wrong, and just and cruel are blurred, there are only two options Es can choose between: innocent or guilty.\n\n[Written by MAL Rewrite]\n",
-    mean: 8.01,
-    genres: [
-      {
-        id: 19,
-        name: "Music",
+        id: 8,
+        name: "Drama",
       },
       {
         id: 40,
         name: "Psychological",
       },
       {
+        id: 24,
+        name: "Sci-Fi",
+      },
+      {
         id: 41,
         name: "Suspense",
+      },
+      {
+        id: 78,
+        name: "Time Travel",
+      },
+      {
+        id: 28977,
+        title: "Gintama°",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/3/72078.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/3/72078l.jpg",
+        },
+        mean: 9.06,
+        media_type: "tv",
+        start_date: "2015-04-08",
+        alternative_titles: {
+          synonyms: ["Gintama' (2015)"],
+          en: "Gintama Season 4",
+          ja: "銀魂°",
+        },
+        synopsis:
+          "Gintoki, Shinpachi, and Kagura return as the fun-loving but broke members of the Yorozuya team! Living in an alternate-reality Edo, where swords are prohibited and alien overlords have conquered Japan, they try to thrive on doing whatever work they can get their hands on. However, Shinpachi and Kagura still haven't been paid... Does Gin-chan really spend all that cash playing pachinko?\n\nMeanwhile, when Gintoki drunkenly staggers home one night, an alien spaceship crashes nearby. A fatally injured crew member emerges from the ship and gives Gintoki a strange, clock-shaped device, warning him that it is incredibly powerful and must be safeguarded. Mistaking it for his alarm clock, Gintoki proceeds to smash the device the next morning and suddenly discovers that the world outside his apartment has come to a standstill. With Kagura and Shinpachi at his side, he sets off to get the device fixed; though, as usual, nothing is ever that simple for the Yorozuya team.\n\nFilled with tongue-in-cheek humor and moments of heartfelt emotion, Gintama's fourth season finds Gintoki and his friends facing both their most hilarious misadventures and most dangerous crises yet.\n\n[Written by MAL Rewrite]",
+        genres: [
+          {
+            id: 1,
+            name: "Action",
+          },
+          {
+            id: 4,
+            name: "Comedy",
+          },
+          {
+            id: 57,
+            name: "Gag Humor",
+          },
+          {
+            id: 13,
+            name: "Historical",
+          },
+          {
+            id: 20,
+            name: "Parody",
+          },
+          {
+            id: 21,
+            name: "Samurai",
+          },
+          {
+            id: 24,
+            name: "Sci-Fi",
+          },
+          {
+            id: 27,
+            name: "Shounen",
+          },
+        ],
+        rating: "pg_13",
+      },
+      {
+        id: 38524,
+        title: "Shingeki no Kyojin Season 3 Part 2",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/1517/100633.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/1517/100633l.jpg",
+        },
+        mean: 9.05,
+        media_type: "tv",
+        start_date: "2019-04-29",
+        alternative_titles: {
+          synonyms: [],
+          en: "Attack on Titan Season 3 Part 2",
+          ja: "進撃の巨人 Season3 Part.2",
+        },
+        synopsis:
+          "Seeking to restore humanity's diminishing hope, the Survey Corps embark on a mission to retake Wall Maria, where the battle against the merciless \"Titans\" takes the stage once again.\n\nReturning to the tattered Shiganshina District that was once his home, Eren Yeager and the Corps find the town oddly unoccupied by Titans. Even after the outer gate is plugged, they strangely encounter no opposition. The mission progresses smoothly until Armin Arlert, highly suspicious of the enemy's absence, discovers distressing signs of a potential scheme against them. \n\nShingeki no Kyojin Season 3 Part 2 follows Eren as he vows to take back everything that was once his. Alongside him, the Survey Corps strive—through countless sacrifices—to carve a path towards victory and uncover the secrets locked away in the Yeager family's basement.\n\n[Written by MAL Rewrite]",
+        genres: [
+          {
+            id: 1,
+            name: "Action",
+          },
+          {
+            id: 8,
+            name: "Drama",
+          },
+          {
+            id: 58,
+            name: "Gore",
+          },
+          {
+            id: 38,
+            name: "Military",
+          },
+          {
+            id: 27,
+            name: "Shounen",
+          },
+          {
+            id: 76,
+            name: "Survival",
+          },
+          {
+            id: 41,
+            name: "Suspense",
+          },
+        ],
+        rating: "r",
+      },
+      {
+        id: 41467,
+        title: "Bleach: Sennen Kessen-hen",
+        main_picture: {
+          medium: "https://cdn.myanimelist.net/images/anime/1908/135431.jpg",
+          large: "https://cdn.myanimelist.net/images/anime/1908/135431l.jpg",
+        },
+        mean: 9.04,
+        media_type: "tv",
+        start_date: "2022-10-11",
+        alternative_titles: {
+          synonyms: ["Bleach: Thousand-Year Blood War Arc"],
+          en: "Bleach: Thousand-Year Blood War",
+          ja: "BLEACH 千年血戦篇",
+        },
+        synopsis:
+          "Substitute Soul Reaper Ichigo Kurosaki spends his days fighting against Hollows, dangerous evil spirits that threaten Karakura Town. Ichigo carries out his quest with his closest allies: Orihime Inoue, his childhood friend with a talent for healing; Yasutora Sado, his high school classmate with superhuman strength; and Uryuu Ishida, Ichigo's Quincy rival.\n\nIchigo's vigilante routine is disrupted by the sudden appearance of Asguiaro Ebern, a dangerous Arrancar who heralds the return of Yhwach, an ancient Quincy king. Yhwach seeks to reignite the historic blood feud between Soul Reaper and Quincy, and he sets his sights on erasing both the human world and the Soul Society for good.\n\nYhwach launches a two-pronged invasion into both the Soul Society and Hueco Mundo, the home of Hollows and Arrancar. In retaliation, Ichigo and his friends must fight alongside old allies and enemies alike to end Yhwach's campaign of carnage before the world itself comes to an end.\n\n[Written by MAL Rewrite]",
+        genres: [
+          {
+            id: 1,
+            name: "Action",
+          },
+          {
+            id: 2,
+            name: "Adventure",
+          },
+          {
+            id: 10,
+            name: "Fantasy",
+          },
+          {
+            id: 27,
+            name: "Shounen",
+          },
+        ],
+        rating: "r",
       },
     ],
     rating: "pg_13",
   },
   {
-    id: 21,
-    title: "One Piece",
+    id: 39486,
+    title: "Gintama: The Final",
     main_picture: {
-      medium: "https://cdn.myanimelist.net/images/anime/1244/138851.jpg",
-      large: "https://cdn.myanimelist.net/images/anime/1244/138851l.jpg",
+      medium: "https://cdn.myanimelist.net/images/anime/1245/116760.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1245/116760l.jpg",
     },
+    mean: 9.04,
+    media_type: "movie",
+    start_date: "2021-01-08",
     alternative_titles: {
-      synonyms: ["OP"],
-      en: "One Piece",
-      ja: "ONE PIECE",
+      synonyms: [],
+      en: "Gintama: The Very Final",
+      ja: "銀魂 THE FINAL",
     },
     synopsis:
-      "Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a naive-looking teenager, he is not to be underestimated. Unmatched in battle, Luffy is a pirate himself who resolutely pursues the coveted One Piece treasure and the King of the Pirates title that comes with it.\n\nThe late King of the Pirates, Gol D. Roger, stirred up the world before his death by disclosing the whereabouts of his hoard of riches and daring everyone to obtain it. Ever since then, countless powerful pirates have sailed dangerous seas for the prized One Piece only to never return. Although Luffy lacks a crew and a proper ship, he is endowed with a superhuman ability and an unbreakable spirit that make him not only a formidable adversary but also an inspiration to many.\n\nAs he faces numerous challenges with a big smile on his face, Luffy gathers one-of-a-kind companions to join him in his ambitious endeavor, together embracing perils and wonders on their once-in-a-lifetime adventure.\n\n[Written by MAL Rewrite]",
-    mean: 8.71,
+      "Two years have passed following the Tendoshuu's invasion of the O-Edo Central Terminal. Since then, the Yorozuya have gone their separate ways. Foreseeing Utsuro's return, Gintoki Sakata begins surveying Earth's ley lines for traces of the other man's Altana. After an encounter with the remnants of the Tendoshuu—who continue to press on in search of immortality—Gintoki returns to Edo.\n\nLater, the regrouped Shinsengumi and Yorozuya begin an attack on the occupied Central Terminal. With the Altana harvested by the wreckage of the Tendoshuu's ship in danger of detonating, the Yorozuya and their allies fight their enemies while the safety of Edo—and the rest of the world—hangs in the balance. Fulfilling the wishes of their teacher, Shouyou Yoshida's former students unite and relive their pasts one final time in an attempt to save their futures.\n\n[Written by MAL Rewrite]\n",
+    genres: [
+      {
+        id: 1,
+        name: "Action",
+      },
+      {
+        id: 4,
+        name: "Comedy",
+      },
+      {
+        id: 8,
+        name: "Drama",
+      },
+      {
+        id: 57,
+        name: "Gag Humor",
+      },
+      {
+        id: 13,
+        name: "Historical",
+      },
+      {
+        id: 20,
+        name: "Parody",
+      },
+      {
+        id: 21,
+        name: "Samurai",
+      },
+      {
+        id: 24,
+        name: "Sci-Fi",
+      },
+      {
+        id: 27,
+        name: "Shounen",
+      },
+    ],
+    rating: "pg_13",
+  },
+  {
+    id: 11061,
+    title: "Hunter x Hunter (2011)",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+    },
+    mean: 9.04,
+    media_type: "tv",
+    start_date: "2011-10-02",
+    alternative_titles: {
+      synonyms: ["HxH (2011)"],
+      en: "Hunter x Hunter",
+      ja: "HUNTER×HUNTER（ハンター×ハンター）",
+    },
+    synopsis:
+      "Hunters devote themselves to accomplishing hazardous tasks, all from traversing the world's uncharted territories to locating rare items and monsters. Before becoming a Hunter, one must pass the Hunter Examination—a high-risk selection process in which most applicants end up handicapped or worse, deceased.\n\nAmbitious participants who challenge the notorious exam carry their own reason. What drives 12-year-old Gon Freecss is finding Ging, his father and a Hunter himself. Believing that he will meet his father by becoming a Hunter, Gon takes the first step to walk the same path.\n\nDuring the Hunter Examination, Gon befriends the medical student Leorio Paladiknight, the vindictive Kurapika, and ex-assassin Killua Zoldyck. While their motives vastly differ from each other, they band together for a common goal and begin to venture into a perilous world.\n\n[Written by MAL Rewrite]",
     genres: [
       {
         id: 1,
@@ -248,165 +357,111 @@ const DUMMY_DATA = [
         id: 27,
         name: "Shounen",
       },
-      {
-        id: 54029,
-        title: "Wu Liuqi: Anying Suming",
-        main_picture: {
-          medium: "https://cdn.myanimelist.net/images/anime/1088/132178.jpg",
-          large: "https://cdn.myanimelist.net/images/anime/1088/132178l.jpg",
-        },
-        alternative_titles: {
-          synonyms: [
-            "Cike Wuliuqi 4th Season",
-            "Ci Ke Wu Liu Qi 4th Season",
-            "Assassin Seven 4th Season",
-            "Killer Seven 4th Season",
-          ],
-          en: "Scissor Seven: Shadow Fate",
-          ja: "伍六七之暗影宿命",
-        },
-        synopsis:
-          "The protagonist Wu Liuqi originally lived a carefree life on Xiaoji Island, but his identity became a mystery due to amnesia. As outsiders landed on the island and recognized Wu Liuqi, various conspiracies began to cover Xiaoji Island. So Wu Liuqi decided to return to Xuanwu Kingdom to meet his destiny in order to protect his partners and their homeland. \n\n(Source: Bilibili, Google translated)",
-        mean: 7.98,
-        genres: [
-          {
-            id: 1,
-            name: "Action",
-          },
-          {
-            id: 2,
-            name: "Adventure",
-          },
-          {
-            id: 4,
-            name: "Comedy",
-          },
-          {
-            id: 8,
-            name: "Drama",
-          },
-          {
-            id: 17,
-            name: "Martial Arts",
-          },
-          {
-            id: 7,
-            name: "Mystery",
-          },
-          {
-            id: 31,
-            name: "Super Power",
-          },
-          {
-            id: 50183,
-            title: "Blue Giant",
-            main_picture: {
-              medium:
-                "https://cdn.myanimelist.net/images/anime/1958/132159.jpg",
-              large:
-                "https://cdn.myanimelist.net/images/anime/1958/132159l.jpg",
-            },
-            alternative_titles: {
-              synonyms: [],
-              en: "",
-              ja: "BLUE GIANT",
-            },
-            synopsis:
-              '"I will definitely become the world\'s best Jazz player!"\n\nBlue Giant follows Dai Miyamoto, who is a member of the basketball club. While attending junior high school one day, a friend takes him to a live jazz performance, which inspires him deeply. Thereafter, he begins practicing the tenor saxophone by himself, without the ability to read sheet music.\n\nRain or shine, day or night, Dai continues to practice. During his first performance, he is criticized by the audience, however, Dai passionately blows away at his saxophone. A tale of reaching his goal recklessly and sincerely begins.\n\n(Source: MAL News)',
-            mean: 8.28,
-            genres: [
-              {
-                id: 19,
-                name: "Music",
-              },
-              {
-                id: 42,
-                name: "Seinen",
-              },
-            ],
-            rating: "pg_13",
-          },
-        ],
-        rating: "r",
-      },
     ],
     rating: "pg_13",
   },
   {
-    id: 54029,
-    title: "Wu Liuqi: Anying Suming",
+    id: 9969,
+    title: "Gintama'",
     main_picture: {
-      medium: "https://cdn.myanimelist.net/images/anime/1088/132178.jpg",
-      large: "https://cdn.myanimelist.net/images/anime/1088/132178l.jpg",
+      medium: "https://cdn.myanimelist.net/images/anime/4/50361.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/4/50361l.jpg",
     },
+    mean: 9.03,
+    media_type: "tv",
+    start_date: "2011-04-04",
     alternative_titles: {
-      synonyms: [
-        "Cike Wuliuqi 4th Season",
-        "Ci Ke Wu Liu Qi 4th Season",
-        "Assassin Seven 4th Season",
-        "Killer Seven 4th Season",
-      ],
-      en: "Scissor Seven: Shadow Fate",
-      ja: "伍六七之暗影宿命",
+      synonyms: ["Gintama (2011)"],
+      en: "Gintama Season 2",
+      ja: "銀魂'",
     },
     synopsis:
-      "The protagonist Wu Liuqi originally lived a carefree life on Xiaoji Island, but his identity became a mystery due to amnesia. As outsiders landed on the island and recognized Wu Liuqi, various conspiracies began to cover Xiaoji Island. So Wu Liuqi decided to return to Xuanwu Kingdom to meet his destiny in order to protect his partners and their homeland. \n\n(Source: Bilibili, Google translated)",
-    mean: 7.98,
+      "After a one-year hiatus, Shinpachi Shimura returns to Edo, only to stumble upon a shocking surprise: Gintoki and Kagura, his fellow Yorozuya members, have become completely different characters! Fleeing from the Yorozuya headquarters in confusion, Shinpachi finds that all the denizens of Edo have undergone impossibly extreme changes, in both appearance and personality. Most unbelievably, his sister Otae has married the Shinsengumi chief and shameless stalker Isao Kondou and is pregnant with their first child.\n\nBewildered, Shinpachi agrees to join the Shinsengumi at Otae and Kondou's request and finds even more startling transformations afoot both in and out of the ranks of the the organization. However, discovering that Vice Chief Toushirou Hijikata has remained unchanged, Shinpachi and his unlikely Shinsengumi ally set out to return the city of Edo to how they remember it.\n\nWith even more dirty jokes, tongue-in-cheek parodies, and shameless references, Gintama' follows the Yorozuya team through more of their misadventures in the vibrant, alien-filled world of Edo.\n\n[Written by MAL Rewrite]",
     genres: [
       {
         id: 1,
         name: "Action",
       },
       {
-        id: 2,
-        name: "Adventure",
+        id: 4,
+        name: "Comedy",
+      },
+      {
+        id: 57,
+        name: "Gag Humor",
+      },
+      {
+        id: 13,
+        name: "Historical",
+      },
+      {
+        id: 20,
+        name: "Parody",
+      },
+      {
+        id: 21,
+        name: "Samurai",
+      },
+      {
+        id: 24,
+        name: "Sci-Fi",
+      },
+      {
+        id: 27,
+        name: "Shounen",
+      },
+    ],
+    rating: "pg_13",
+  },
+  {
+    id: 15417,
+    title: "Gintama': Enchousen",
+    main_picture: {
+      medium: "https://cdn.myanimelist.net/images/anime/1452/123686.jpg",
+      large: "https://cdn.myanimelist.net/images/anime/1452/123686l.jpg",
+    },
+    mean: 9.03,
+    media_type: "tv",
+    start_date: "2012-10-04",
+    alternative_titles: {
+      synonyms: ["Gintama' (2012)", "Gintama' Overdrive", "Kintama"],
+      en: "Gintama: Enchousen",
+      ja: "銀魂' 延長戦",
+    },
+    synopsis:
+      "While Gintoki Sakata was away, the Yorozuya found themselves a new leader: Kintoki, Gintoki's golden-haired doppelganger. In order to regain his former position, Gintoki will need the help of those around him, a troubling feat when no one can remember him! Between Kintoki and Gintoki, who will claim the throne as the main character?\n\nIn addition, Yorozuya make a trip back down to red-light district of Yoshiwara to aid an elderly courtesan in her search for her long-lost lover. Although the district is no longer in chains beneath the earth's surface, the trio soon learn of the tragic backstories of Yoshiwara's inhabitants that still haunt them. With flashback after flashback, this quest has Yorozuya witnessing everlasting love and protecting it as best they can with their hearts and souls.\n\n[Written by MAL Rewrite]",
+    genres: [
+      {
+        id: 1,
+        name: "Action",
       },
       {
         id: 4,
         name: "Comedy",
       },
       {
-        id: 8,
-        name: "Drama",
+        id: 57,
+        name: "Gag Humor",
       },
       {
-        id: 17,
-        name: "Martial Arts",
+        id: 13,
+        name: "Historical",
       },
       {
-        id: 7,
-        name: "Mystery",
+        id: 20,
+        name: "Parody",
       },
       {
-        id: 31,
-        name: "Super Power",
-      },
-    ],
-    rating: "r",
-  },
-  {
-    id: 50183,
-    title: "Blue Giant",
-    main_picture: {
-      medium: "https://cdn.myanimelist.net/images/anime/1958/132159.jpg",
-      large: "https://cdn.myanimelist.net/images/anime/1958/132159l.jpg",
-    },
-    alternative_titles: {
-      synonyms: [],
-      en: "",
-      ja: "BLUE GIANT",
-    },
-    synopsis:
-      '"I will definitely become the world\'s best Jazz player!"\n\nBlue Giant follows Dai Miyamoto, who is a member of the basketball club. While attending junior high school one day, a friend takes him to a live jazz performance, which inspires him deeply. Thereafter, he begins practicing the tenor saxophone by himself, without the ability to read sheet music.\n\nRain or shine, day or night, Dai continues to practice. During his first performance, he is criticized by the audience, however, Dai passionately blows away at his saxophone. A tale of reaching his goal recklessly and sincerely begins.\n\n(Source: MAL News)',
-    mean: 8.28,
-    genres: [
-      {
-        id: 19,
-        name: "Music",
+        id: 21,
+        name: "Samurai",
       },
       {
-        id: 42,
-        name: "Seinen",
+        id: 24,
+        name: "Sci-Fi",
+      },
+      {
+        id: 27,
+        name: "Shounen",
       },
     ],
     rating: "pg_13",

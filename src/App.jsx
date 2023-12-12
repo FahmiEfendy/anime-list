@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import { DUMMY_DATA } from "./data/data";
+import Header from "./components/Header";
 import Slider from "./components/Slider";
 import Carousel from "./components/Carousel";
 import AnimeDetail from "./components/AnimeDetail";
@@ -13,6 +14,7 @@ function App() {
         path="/"
         element={
           <React.Fragment>
+            <Header />
             {/* TODO: Top Airing Anime */}
             <Carousel datas={DUMMY_DATA} />
             {/* TODO: Top Anime All */}

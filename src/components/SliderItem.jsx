@@ -9,8 +9,8 @@ const SliderItem = ({ data }) => {
 
   return (
     <div
-      className="mr-5 cursor-pointer"
-      style={{ minWidth: "13rem" }}
+      className="mr-3 cursor-pointer"
+      style={{ minWidth: "15rem" }}
       onClick={() => movieDetailHandler(data.id)}
     >
       <img
